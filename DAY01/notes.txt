@@ -1,6 +1,3 @@
-
-
-
 Linux
 Git and github
 Shell scripting
@@ -36,15 +33,6 @@ Types of application servers
 5. Glashfish .......
 
 
-
-
-
-
-
-
-
-
-
 IQ] why you are going for tomcat app server?
 
 ANS: Now a days most of the projects developed based on the micro service architecture.
@@ -53,28 +41,10 @@ ANS: Now a days most of the projects developed based on the micro service archit
 
 
 
-
-
-
-
-
-
-
-
-
-
 IQ] what is the diff between tomcat and jboss/wildfly?
 
 
    tomcat mainly used for web applicaions, Jboss used for web/enterprise applications.
-
-
-
-
-
-
-
-
 
 
 
@@ -254,15 +224,6 @@ http://65.0.182.70:8080
 
 
 
-
-
-
-
-
-
-
-
-
 IQ] How to access tomcat server from PC?
 
 NOTE: default port number for tomcat server is 8080.
@@ -305,7 +266,6 @@ step 8: vi tomcat-users.xml ---> goto end of the file and add users.
 
   <user username="kk" password="password" roles="manager-gui,admin-gui"/>
   <user username="mahesh" password="password" roles="manager-gui,admin-gui"/>
-
 
 
 if you want to login Host-manager do the same process?
