@@ -195,17 +195,16 @@ sudo yum install java-21-openjdk-devel -y
 
 step 5: yum install wget unzip tree -y
 
-step 6: cd /opt/
+step 6: 
+         cd /opt/
    
-      wget https://dlcdn.apache.org/tomcat/tomcat-9/v9.0.109/bin/apache-tomcat-9.0.109.zip
+         wget https://dlcdn.apache.org/tomcat/tomcat-9/v9.0.109/bin/apache-tomcat-9.0.109.zip
 
      
-step 7: unzip apache-tomcat-9.0.109.zip
+step 7: 
+         unzip apache-tomcat-9.0.109.zip
 
  
-
-
-
 step 8: goto the bin directory.
      
        cd /opt/apache-tomcat-9.0.109/bin
@@ -232,8 +231,6 @@ NOTE: By default port number of tomcat : 8080
 TCP port range: 0 to 65535
 
 
-
-
 IQ] How to check tomcat is running or not?
 
     sudo yum install lsof
@@ -241,10 +238,6 @@ IQ] How to check tomcat is running or not?
 
 
    ps -ef|grep -i "tomcat"
-
-
-
-
 
 
 
